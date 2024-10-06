@@ -5,9 +5,9 @@ app = Flask(__name__)
 secret_key = secrets.token_hex(32)
 app.secret_key = secret_key
 CANVAS_DOMAIN = 'nau-canvastest.beta.instructure.com'
-CLIENT_ID = 264850000000000001
+CLIENT_ID = 2648500000000001
 REDIRECT_URI = 'urn:ietf:wg:oauth:2.0:oob' 
-CLIENT_SECRET = 'eNvEe7AVEPFw42w4LyYF4Rav9EQ6tMy3CZnhLMWyXrcvuefFK8A4HuMk3yFVQAvk'
+CLIENT_SECRET = 'eNvEe7AVEPFw42w4LyYF4Rav9EQ6tMy3CZnhLMWyXrcvuefFK8A4HuMk3yFVQA'
 
 def data():
     global courses1
